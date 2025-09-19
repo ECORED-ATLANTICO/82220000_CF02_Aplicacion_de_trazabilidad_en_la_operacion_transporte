@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/ECORED-BASE-REPO/](https://ecored-atlantico.github.io/ECORED-BASE-REPO/)
+[https://ecored-atlantico.github.io/82220000_CF02_Aplicacion_de_trazabilidad_en_la_operacion_transporte/](https://ecored-atlantico.github.io/82220000_CF02_Aplicacion_de_trazabilidad_en_la_operacion_transporte/)
 
 #
 
@@ -38,4 +38,6 @@ npm run build
 
 ### Linteo y arreglo de sintaxis de archivos
 
+```
+npm run lint
 ```
