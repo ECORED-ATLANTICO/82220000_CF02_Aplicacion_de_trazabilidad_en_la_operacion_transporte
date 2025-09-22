@@ -58,15 +58,15 @@
       .col-8.col-lg-4.mb-3
         img(src="@/assets/curso/temas/tema_1/img_7.png", class="img-fluid")
       .col-12.col-lg-8.mb-3
-        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--color-primario-t")
           div(titulo="Materias  primas y componentes")
-            p.ps-5.mb-0 Asegura que los materiales recibidos de los proveedores cumplan con las especificaciones de calidad requeridas. Esto implica una evaluación rigurosa de proveedores y auditorías de calidad.
+            p.mb-0 Asegura que los materiales recibidos de los proveedores cumplan con las especificaciones de calidad requeridas. Esto implica una evaluación rigurosa de proveedores y auditorías de calidad.
           div(titulo="Procesos de producción")
-            p.ps-5.mb-0 Garantiza que los procesos de fabricación sean eficientes, precisos y generen productos sin defectos. Esto incluye el control de calidad en cada fase de la producción.
+            p.mb-0 Garantiza que los procesos de fabricación sean eficientes, precisos y generen productos sin defectos. Esto incluye el control de calidad en cada fase de la producción.
           div(titulo="Almacenamiento y manejo")
-            p.ps-5.mb-0 Mantiene las condiciones adecuadas de almacenamiento para preservar la calidad de los productos y evitar daños durante su manipulación.
+            p.mb-0 Mantiene las condiciones adecuadas de almacenamiento para preservar la calidad de los productos y evitar daños durante su manipulación.
           div(titulo="Transporte y distribución")
-            p.ps-5.mb-0 Asegura que los productos lleguen a su destino en el tiempo y condiciones esperadas, sin sufrir deterioros o pérdidas. Esto implica un diseño de red de distribución eficiente y un transporte confiable.
+            p.mb-0 Asegura que los productos lleguen a su destino en el tiempo y condiciones esperadas, sin sufrir deterioros o pérdidas. Esto implica un diseño de red de distribución eficiente y un transporte confiable.
 
 </template>
 

@@ -95,6 +95,26 @@
     
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-8.order-2.order-lg-1.mb-0
+        .custom-slider--color-fondo-1.p-2.p-sm-3.mb-5(data-aos="zoom-in-right")
+          SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6")
+            .tarjeta--color-fondo-1.h-95
+              .row.justify-content-center.align-items-center.mb-0
+                .col-12.mb-3
+                  .tarjeta--1
+                .tarjeta--slider__title.mb-3.text-center.fw-bold Seguridad física
+                .tarjeta--slider__content.text-center Protege activos y personal mediante controles de acceso biométricos/RFID, sistemas de videovigilancia con analítica de video y refuerzo perimetral de instalaciones.
+            .tarjeta--color-fondo-1.h-95
+              .row.justify-content-center.align-items-center.mb-0
+                .col-12.mb-3
+                  .tarjeta--2
+                .tarjeta--slider__title.mb-3.text-center.fw-bold Seguridad de la información
+                .tarjeta--slider__content.text-center.mb-4 Salvaguarda datos sensibles de la operación (inventarios, rutas, clientes, entre otros) frente a accesos no autorizados o manipulaciones, aplicando cifrado, autenticación y controles de acceso digital.
+            .tarjeta--color-fondo-1.h-95
+              .row.justify-content-center.align-items-center.mb-0
+                .col-12.mb-3
+                  .tarjeta--3
+                .tarjeta--slider__title.mb-3.text-center.fw-bold Seguridad operacional
+                .tarjeta--slider__content.text-center Estandariza procesos a través de SOPs con enfoque en seguridad, auditorías periódicas y capacitación continua del personal.
 
       .col-8.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
         figure
