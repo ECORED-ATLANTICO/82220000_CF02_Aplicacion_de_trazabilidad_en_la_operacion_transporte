@@ -41,16 +41,28 @@
       background-color: lighten($color-terciario, 15%)
       border: 1px solid lighten($color-terciario, 15%)
 
+  &--fondo__slider-01
+    background-image: url('../assets/curso/temas/tema_4/img_20.png')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    padding: 15px 20px
+
   &--color-fondo-1
     background-image: url('../assets/curso/temas/tema_3/img_14.png')
     background-size: 100% 100%
     background-repeat: no-repeat
     padding: 1.5rem
-    border-radius: 20px
+    border-radius: 30px
     height: 100%
     width: 100%
     *
       color: textColor($color-sistema-h)
+
+  &--fondo-infografia
+    background-image: url('../assets/curso/temas/tema_1/img_5.png')
+    background-size: 100% 100%
+    background-repeat: no-repeat
 
   &--color-primario-t
     background-color: $color-primario
@@ -77,6 +89,26 @@
     margin: 0 
     margin-left: auto
     width: 5rem    
+  &--4
+    content: url('../assets/curso/temas/tema_4/img_11.svg')
+    margin: auto
+    width: 10rem    
+  &--5
+    content: url('../assets/curso/temas/tema_4/img_12.svg')
+    margin: auto
+    width: 10rem   
+  &--6
+    content: url('../assets/curso/temas/tema_4/img_13.svg')
+    margin: auto
+    width: 10rem   
+  &--7
+    content: url('../assets/curso/temas/tema_4/img_14.svg')
+    margin: auto
+    width: 10rem    
+  &--8
+    content: url('../assets/curso/temas/tema_4/img_15.svg')
+    margin: auto
+    width: 10rem  
 
   &--boton
     border-radius: 20px
@@ -126,6 +158,14 @@
       background-color: lighten($color-primario-5, 50%)
       color: textColor(lighten($color-primario-5, 50%))
       border: solid 4px $color-primario-5
+  &.color-primario-10
+    background-color: $color-primario-10
+    *
+      color: textColor($color-primario-10)
+    &--borde
+      background-color: lighten($color-primario-10, 50%)
+      color: textColor(lighten($color-primario-10, 50%))
+      border: solid 4px $color-primario-10
   &.color-secundario
     background-color: $color-secundario
     *
@@ -166,6 +206,14 @@
       background-color: lighten($color-terciario-10, 50%)
       color: textColor(lighten($color-terciario-10, 50%))
       border: solid 4px $color-terciario-10
+  &.color-terciario-20
+    background-color: $color-terciario-20
+    *
+      color: textColor($color-terciario-20)
+    &--borde
+      background-color: lighten($color-terciario-20, 50%)
+      color: textColor(lighten($color-terciario-20, 50%))
+      border: solid 4px $color-terciario-20
   &.color-acento-contenido
     background-color: $color-acento-contenido
     *
@@ -174,6 +222,14 @@
       background-color: lighten($color-acento-contenido, 50%)
       color: textColor(lighten($color-acento-contenido, 50%))
       border: solid 4px $color-acento-contenido
+  &.color-acento-contenido-10
+    background-color: $color-acento-contenido-10
+    *
+      color: textColor($color-acento-contenido-10)
+    &--borde
+      background-color: lighten($color-acento-contenido-10, 50%)
+      color: textColor(lighten($color-acento-contenido-10, 50%))
+      border: solid 4px $color-acento-contenido-10
   &.color-acento-botones
     background-color: $color-acento-botones
     *
@@ -182,6 +238,14 @@
       background-color: lighten($color-acento-botones, 50%)
       color: textColor(lighten($color-acento-botones, 50%))
       border: solid 4px $color-acento-botones
+  &.color-sistema-f
+    background-color: $color-sistema-f
+    *
+      color: textColor($color-sistema-f)
+    &--borde
+      background-color: lighten($color-sistema-f, 50%)
+      color: textColor(lighten($color-sistema-f, 50%))
+      border: solid 4px $color-sistema-f
 
 // TARJETAS CON AVATAR
 .tarjeta-avatar
@@ -393,3 +457,68 @@
       flex: 1
       display: flex
       justify-content: center
+
+.tarjeta-indicador
+  position: relative
+  background-color: transparent
+  padding-bottom: 50px
+  height: 100% !important
+
+  &__header
+    background-color: $white
+    border-top-left-radius: 20px
+    border-top-right-radius: 20px
+    padding: 0.5rem 
+
+  &__circulo
+    position: absolute
+    bottom: 0
+    left: 50%
+    transform: translate(-50%, 50%)
+    background-color: $color-adicional-2
+    border: 2px solid $white
+    width: 100px
+    height: 100px
+    border-radius: 50%
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1)
+
+    display: flex
+    align-items: center
+    justify-content: center
+
+    span
+      font-size: 4rem
+      font-weight: 700
+      line-height: 1
+      
+    
+  &.color-primario-10
+    .tarjeta-indicador
+      &__header
+        background-color: $color-primario
+      &__circulo span
+        color: $color-primario
+  &.color-secundario-5
+    .tarjeta-indicador
+      &__header
+        background-color: $color-secundario-20
+      &__circulo span
+        color: $color-secundario-20
+  &.color-terciario-20
+    .tarjeta-indicador
+      &__header
+        background-color: $color-terciario
+      &__circulo span
+        color: $color-terciario
+  &.color-acento-contenido-10
+    .tarjeta-indicador
+      &__header
+        background-color: $color-acento-contenido
+      &__circulo span
+        color: $color-acento-contenido
+  &.color-sistema-f
+    .tarjeta-indicador
+      &__header
+        background-color: $color-sistema-c
+      &__circulo span
+        color: $color-sistema-c

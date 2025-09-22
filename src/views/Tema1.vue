@@ -41,6 +41,76 @@
         p.mb-0 Los elementos de la cadena de suministro conforman los pilares que garantizan la eficiencia, la trazabilidad y la sostenibilidad de las operaciones logísticas. Cada uno, desde la planificación hasta la gestión de devoluciones, junto con los habilitadores tecnológicos y organizacionales, aporta valor y asegura la disponibilidad de información confiable para coordinar y optimizar los procesos de transporte.
     
     .bg_img_1.mb-3
+      .row.justify-content-center.align-items-center.mb-0
+        .col-12.col-lg-10.col-xl-8
+          .gps-infografia-container.tarjeta--fondo-infografia
+            .row.justify-content-center.align-items-center.mb-0
+              .mt-5
+              .mt-5
+              .col-8.col-xl-8.mb-5.mt-5
+                input#infografia-punto-1.d-none(type="radio" name="infografia-puntos" checked)
+                input#infografia-punto-2.d-none(type="radio" name="infografia-puntos")
+                input#infografia-punto-3.d-none(type="radio" name="infografia-puntos")
+                input#infografia-punto-4.d-none(type="radio" name="infografia-puntos")
+                input#infografia-punto-5.d-none(type="radio" name="infografia-puntos")
+                input#infografia-punto-6.d-none(type="radio" name="infografia-puntos")
+                .info-cards-container.mb-3
+                  .info-card(data-card="1")
+                    .img-circulo
+                      figure
+                        img(src="@/assets/curso/temas/tema_1/img_9.png", class="img-fluid")
+                    .card-content
+                      h5.mb-3 Planificación 
+                      p.mb-0 Pronóstico de demanda, capacidad productiva y abastecimiento. Asegura la disponibilidad de información inicial, asignación de lotes y números de serie.
+                  .info-card(data-card="2")
+                    .img-circulo 
+                      figure
+                        img(src="@/assets/curso/temas/tema_1/img_10.png", class="img-fluid")
+                    .card-content
+                      h5.mb-3 Aprovisionamiento (Sourcing)
+                      p.mb-0 Selección y evaluación de proveedores, gestión de relaciones (SRM) y contratos con cláusulas de trazabilidad. Garantiza el registro del origen de insumos y materias primas.
+                  .info-card(data-card="3")
+                    .img-circulo 
+                      figure
+                        img(src="@/assets/curso/temas/tema_1/img_11.png", class="img-fluid")
+                    .card-content
+                      h5.mb-3 Fabricación/Producción (Make)
+                      p.mb-0 Control de procesos, inventarios en proceso y calidad. La trazabilidad se fortalece con la asignación de lotes, números de serie y captura de datos en cada etapa.
+                  .info-card(data-card="4")
+                    .img-circulo 
+                      figure
+                        img(src="@/assets/curso/temas/tema_1/img_12.png", class="img-fluid")
+                    .card-content
+                      h5.mb-3 Distribución y logística (Deliver)
+                      p.mb-0 Gestión de almacenes, transporte, pedidos y logística inversa. Permite trazabilidad hacia adelante y hacia atrás mediante información de envíos, ubicaciones y devoluciones.
+                  .info-card(data-card="5")
+                    .img-circulo 
+                      figure
+                        img(src="@/assets/curso/temas/tema_1/img_10.png", class="img-fluid")
+                    .card-content
+                      h5.mb-3 Gestión de devoluciones (Return)
+                      p.mb-0 Procesos de recepción, clasificación y disposición de productos. Cierra el ciclo de vida y facilita el control en retiros del mercado o postventa.
+                  .info-card(data-card="6")
+                    .img-circulo 
+                      figure
+                        img(src="@/assets/curso/temas/tema_1/img_11.png", class="img-fluid")
+                    .card-content
+                      h5.mb-3 Habilitadores (Enablers)
+                      p.mb-0 Tecnología (ERP, WMS, RFID, Blockchain), talento humano, infraestructura y KPIs. Constituyen la base digital y organizacional para capturar y acceder a la información de trazabilidad.
+              .col-12.col-lg-12.col-xl-10.mb-5
+                figure
+                  label.punto-info(for="infografia-punto-1" style="top: 50%; left: 10%;")
+                    .punto-numero +
+                  label.punto-info(for="infografia-punto-2" style="top: 50%; left: 25%;")
+                    .punto-numero +
+                  label.punto-info(for="infografia-punto-3" style="top: 50%; left: 40%;")
+                    .punto-numero +
+                  label.punto-info(for="infografia-punto-4" style="top: 50%; left: 55%;")
+                    .punto-numero +
+                  label.punto-info(for="infografia-punto-5" style="top: 50%; left: 70%;")
+                    .punto-numero +
+                  label.punto-info(for="infografia-punto-6" style="top: 50%; left: 85%;")
+                    .punto-numero +
 
       separador
 
