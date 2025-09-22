@@ -103,3 +103,151 @@ figcaption
 
     &--fondo-1
       background-image: url('../assets/curso/sintesis/img_3.png')
+
+    &--fondo-2
+      background-image: url('../assets/curso/temas/tema_1/img_3.png')
+
+    &--fondo-3
+      background-image: url('../assets/curso/temas/tema_2/img_7.png')
+
+    [class*="cita-decorada__imagen-flotante"]
+      width: 100%
+      height: auto
+      
+    .cita-decorada__imagen-flotante-1
+      position: absolute
+      transform: translateY(-113px) translateX(-40px)
+      z-index: 3
+      max-width: 220px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-113px) translateX(-40px)
+        max-width: 220px
+      
+    .cita-decorada__imagen-flotante-2
+      position: absolute
+      transform: translateY(-106px) translateX(-68px)
+      z-index: 3
+      max-width: 300px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-85px) translateX(-68px)
+        max-width: 250px
+
+// Fondos 
+.bg_img
+  &_1
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -290px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_1/img_8.png') !important
+      background-repeat: no-repeat
+  &_2
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -317px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_2/img_18.png') !important
+      background-repeat: no-repeat
+  &_3
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -21px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 115%
+      background-image: url('../assets/curso/temas/tema_2/img_17.png') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+    .slyder-a__tipo-b .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+    .slyder-a__tipo-b .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+    .slyder-a__bullets__item--active
+      background-color: $color-terciario !important
+      border-color: $color-terciario !important
+      opacity: 1
+    .slyder-a__bullets__item
+      background-color: lighten($color-terciario, 15%)
+      border: 1px solid lighten($color-terciario, 15%)
+  &_4
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -115px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_3/img_15.png') !important
+      background-repeat: no-repeat
+
+// TabsA 
+.tabs-a.mb-0.tarjeta-tabs-a.color-primario-10
+  .row
+    align-items: stretch !important
+    justify-content: center !important
+    .col-lg-4.col-xl-3
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 35% !important
+        max-width: 35% !important
+      
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-8.col-xl-9
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      display: flex !important
+      
+      @media (min-width: 1200px)
+        flex: 0 0 65% !important
+        max-width: 65% !important
+        
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+
+.tabs-a.mb-5.tarjeta-tabs-a.color-primario-10 .col-sm-6.col-lg-12.mb-3
+  .tabs-a__tab
+    padding: 18px 22px !important
+    font-size: 0.95rem !important
+    min-height: 60px !important
+    flex-grow: 1
+
+.tabs-a .tarjeta-tabs-a__tarjeta
+  flex-grow: 1 !important
+  width: 100%
+  display: flex !important
+  align-items: center !important
+  justify-content: center !important

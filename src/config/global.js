@@ -36,13 +36,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Cadena de suministro',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Elementos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Calidad',
+            hash: 't_1_3',
           },
         ],
       },
@@ -50,14 +60,104 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Parámetros de control',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Métricas de desempeño',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Criterios de seguridad',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Principios',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Tipos',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Indicadores de gestión de la operación',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Concepto',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Importancia',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Tipos',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Variables',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Principios de sostenibilidad',
+            hash: 't_4_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Procedimientos operativos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Concepto',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Importancia',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Estructura',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo: 'Composición',
+            hash: 't_5_4',
+          },
+        ],
       },
     ],
     subMenu: [
