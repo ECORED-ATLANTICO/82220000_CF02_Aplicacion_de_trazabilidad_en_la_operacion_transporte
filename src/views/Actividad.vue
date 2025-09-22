@@ -100,7 +100,7 @@ export default {
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-           {
+            {
               id: 'a',
               texto: 'Verdadero',
               esCorrecta: true,
