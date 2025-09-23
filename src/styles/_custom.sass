@@ -146,6 +146,16 @@ figcaption
       @media (max-width: 1025px)
         transform: translateY(-80px) translateX(-60px)
         max-width: 200px
+      
+    .cita-decorada__imagen-flotante-4
+      position: absolute
+      transform: translateY(-95px) translateX(-45px)
+      z-index: 3
+      max-width: 210px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-80px) translateX(-45px)
+        max-width: 185px
 
 // Fondos 
 .bg_img
@@ -220,6 +230,24 @@ figcaption
       background-image: url('../assets/curso/temas/tema_3/img_15.png') !important
       background-repeat: no-repeat
   &_5
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -170px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_4/img_19.png') !important
+      background-repeat: no-repeat
+      @media (max-width: 768px)
+        top: -480px
+        background-image: url('../assets/curso/temas/tema_4/img_5.png') !important
+
+  &_6
     position: relative
     h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
       position: relative
@@ -443,3 +471,7 @@ figcaption
 
   input#infografia-punto-#{$i}:checked ~ .info-cards-container .info-card[data-card='#{$i}']
     display: flex
+
+////.m custom
+.mb-6
+  margin-bottom: 5rem !important

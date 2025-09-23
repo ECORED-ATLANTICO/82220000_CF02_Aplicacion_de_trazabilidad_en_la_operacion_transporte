@@ -30,76 +30,76 @@
             img(src="@/assets/curso/temas/tema_4/img_3.svg", class="img-fluid")
           .col-12.col-lg-11
             p.mb-0 El modelo <em>SMART</em> es una metodología para diseñar indicadores y objetivos de manera clara, precisa y accionable. Su nombre proviene de las siglas en inglés <em>Specific, Measurable, Achievable, Relevant, Time-bound</em>, y busca garantizar que cada indicador cumpla con criterios que faciliten su seguimiento y efectividad en la gestión operativa.
-    
-    .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
-      .bloque-texto-t__img.mb-0
-        img(src='@/assets/curso/temas/tema_4/img_4.png')
-      .row.justify-content-center.align-items-center
-        .col-10.col-lg-2.mb-lg-0.mb-5
-          .bloque-texto-t__texto.color-transparent.mb-lg-0.mb-4.h-100
-            .tarjeta.tarjeta-indicador.color-secundario-5
-              .tarjeta-indicador__header.color-secundario-20
-                h4.text-center.mb-0 Específico
-              .tarjeta-indicador__conter.p-3
-                p.text-center.mb-0 El indicador debe estar claramente definido y enfocado en un aspecto concreto del proceso.
-              .tarjeta-indicador__circulo
-                span S
-        .col-10.col-lg-2.mb-lg-0.mb-5
-          .bloque-texto-t__texto.tarjeta.color-transparent.mb-lg-0.mb-4.h-100
-            .tarjeta.tarjeta-indicador.color-acento-contenido-10
-              .tarjeta-indicador__header
-                h4.text-center.mb-0 Medible
-              .tarjeta-indicador__conter.p-3
-                p.text-center.mb-0 Se debe poder cuantificar o expresar con datos verificables.
-              .tarjeta-indicador__circulo
-                span M
-        .col-10.col-lg-2.mb-lg-0.mb-5
-          .bloque-texto-t__texto.tarjeta.color-transparent.mb-lg-0.mb-4.h-100
-            .tarjeta.tarjeta-indicador.color-terciario-20
-              .tarjeta-indicador__header
-                h4.text-center.mb-0 Alcanzable
-              .tarjeta-indicador__conter.p-3
-                p.text-center.mb-0 El objetivo debe ser realista de acuerdo con los recursos y capacidades disponibles.
-              .tarjeta-indicador__circulo
-                span A
-        .col-10.col-lg-2.mb-lg-0.mb-5
-          .bloque-texto-t__texto.tarjeta.color-transparent.mb-lg-0.mb-4.h-100
-            .tarjeta.tarjeta-indicador.color-sistema-f
-              .tarjeta-indicador__header
-                h4.text-center.mb-0 Relevante
-              .tarjeta-indicador__conter.p-3
-                p.text-center.mb-0 Debe estar alineado con los objetivos estratégicos y aportar valor.
-              .tarjeta-indicador__circulo
-                span R
-        .col-10.col-lg-2.mb-lg-0.mb-0
-          .bloque-texto-t__texto.tarjeta.color-transparent.mb-lg-0.mb-0.h-100
-            .tarjeta.tarjeta-indicador.color-primario-10
-              .tarjeta-indicador__header
-                h4.text-center.mb-0 Temporal
-              .tarjeta-indicador__conter.p-3
-                p.text-center.mb-0 Debe tener un plazo definido para su cumplimiento y medición.
-              .tarjeta-indicador__circulo
-                span T
-
-    separador
-
-    #t_4_2.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 4.2 Importancia
-    .mb-3
-
-    .row.justify-content-center.align-items-center
-      .col-12.col-lg-4.mb-lg-0.mb-3
-        img(src="@/assets/curso/temas/tema_4/img_6.png", class="img-fluid")
-      .col-12.col-lg-8
-        p.mb-0 Los indicadores de gestión en la operación del transporte son esenciales porque funcionan como el pulso de la organización. Permiten convertir datos en información estratégica que revela el nivel de eficiencia, productividad, calidad y rentabilidad de los procesos. Gracias a ellos, los gestores pueden anticiparse a problemas, corregir desviaciones (retrasos, sobrecostos, desperdicios de combustible, entre otros) y optimizar recursos, logrando operaciones más confiables, sostenibles y competitivas.
-
-    separador
-
-    #t_4_3.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 4.3 Tipos 
-    .mb-3
-
     .bg_img_5.mb-3
+      .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
+        .bloque-texto-t__img.mb-0
+          img(src='@/assets/curso/temas/tema_4/img_4.png')
+        .row.justify-content-center.align-items-stretch
+          .col-10.col-md-8.col-lg-2.mb-lg-0.mb-6
+            .bloque-texto-t__texto.tarjeta.color-transparent.mb-lg-0.mb-5.h-100
+              .tarjeta.tarjeta-indicador.color-secundario-5
+                .tarjeta-indicador__header.color-secundario-20
+                  h4.text-center.mb-0 Específico
+                .tarjeta-indicador__conter.p-3
+                  p.text-center.mb-0 El indicador debe estar claramente definido y enfocado en un aspecto concreto del proceso.
+                .tarjeta-indicador__circulo
+                  span S
+          .col-10.col-md-8.col-lg-2.mb-lg-0.mb-6
+            .bloque-texto-t__texto.tarjeta.color-transparent.mb-lg-0.mb-4.h-100
+              .tarjeta.tarjeta-indicador.color-acento-contenido-10
+                .tarjeta-indicador__header
+                  h4.text-center.mb-0 Medible
+                .tarjeta-indicador__conter.p-3
+                  p.text-center.mb-0 Se debe poder cuantificar o expresar con datos verificables.
+                .tarjeta-indicador__circulo
+                  span M
+          .col-10.col-md-8.col-lg-2.mb-lg-0.mb-6
+            .bloque-texto-t__texto.tarjeta.color-transparent.mb-lg-0.mb-4.h-100
+              .tarjeta.tarjeta-indicador.color-terciario-20
+                .tarjeta-indicador__header
+                  h4.text-center.mb-0 Alcanzable
+                .tarjeta-indicador__conter.p-3
+                  p.text-center.mb-0 El objetivo debe ser realista de acuerdo con los recursos y capacidades disponibles.
+                .tarjeta-indicador__circulo
+                  span A
+          .col-10.col-md-8.col-lg-2.mb-lg-0.mb-6
+            .bloque-texto-t__texto.tarjeta.color-transparent.mb-lg-0.mb-4.h-100
+              .tarjeta.tarjeta-indicador.color-sistema-f
+                .tarjeta-indicador__header
+                  h4.text-center.mb-0 Relevante
+                .tarjeta-indicador__conter.p-3
+                  p.text-center.mb-0 Debe estar alineado con los objetivos estratégicos y aportar valor.
+                .tarjeta-indicador__circulo
+                  span R
+          .col-10.col-md-8.col-lg-2.mb-lg-0.mb-6
+            .bloque-texto-t__texto.tarjeta.color-transparent.mb-lg-0.mb-4.h-100
+              .tarjeta.tarjeta-indicador.color-primario-10
+                .tarjeta-indicador__header
+                  h4.text-center.mb-0 Temporal
+                .tarjeta-indicador__conter.p-3
+                  p.text-center.mb-0 Debe tener un plazo definido para su cumplimiento y medición.
+                .tarjeta-indicador__circulo
+                  span T
+
+      separador
+
+      #t_4_2.titulo-segundo.color-acento-contenido
+        .h2(data-aos="fade-right") 4.2 Importancia
+      .mb-3
+
+      .row.justify-content-center.align-items-center
+        .col-12.col-lg-4.mb-lg-0.mb-3
+          img(src="@/assets/curso/temas/tema_4/img_6.png", class="img-fluid")
+        .col-12.col-lg-8
+          p.mb-0 Los indicadores de gestión en la operación del transporte son esenciales porque funcionan como el pulso de la organización. Permiten convertir datos en información estratégica que revela el nivel de eficiencia, productividad, calidad y rentabilidad de los procesos. Gracias a ellos, los gestores pueden anticiparse a problemas, corregir desviaciones (retrasos, sobrecostos, desperdicios de combustible, entre otros) y optimizar recursos, logrando operaciones más confiables, sostenibles y competitivas.
+
+      separador
+
+      #t_4_3.titulo-segundo.color-acento-contenido
+        .h2(data-aos="fade-right") 4.3 Tipos 
+      .mb-3
+
+    .bg_img_6.mb-3
       .row.justify-content-center.align-items-center.mb-0
         .col-12.col-lg-8.order-2.order-lg-1.mb-0
           p.mb-xl-5.mb-3 Los indicadores de gestión en la operación de transporte y trazabilidad se agrupan en categorías: 
@@ -244,7 +244,7 @@
                 li.d-flex.align-items-start.mb-0
                   i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                   span Disminución de mermas y pérdidas.
-            td.text-start  td.text-start Miden la rentabilidad asociada a la gestión sostenible y la optimización de recursos.
+            td.text-start Miden la rentabilidad asociada a la gestión sostenible y la optimización de recursos.
     
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10
