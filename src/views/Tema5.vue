@@ -40,6 +40,59 @@
                 img(src='@/assets/curso/temas/tema_5/img_3.png',  class="img-fluid cita-decorada__imagen-flotante-4")
               .col-12.col-lg-8
                 p.cita-decorada__texto Los Procedimientos Operativos Estandarizados (POEs) son esenciales para garantizar la trazabilidad en las operaciones de transporte y logística, ya que proporcionan uniformidad, fiabilidad y control en la captura y gestión de la información. Su aplicación permite reducir errores, fortalecer la confianza en los datos y cumplir con normativas vigentes, además de servir como herramienta de capacitación y mejora continua:
+    .row.justify-content-center.mb-5
+      .col-12.col-lg-10.position-relative
+        .avatar
+          figure
+            img.img250(src="@/assets/curso/temas/tema_5/img_6.png", alt="avatar" class="img-fluid")
+        .crd.crd--avatarHorizontal.crd--first.py-4
+          .row.align-items-center
+            .col-auto.position-relative
+              figure
+                img.img100(src="@/assets/curso/temas/tema_5/img_4.png", alt="Control químico" class="img-fluid")
+            .col
+              h5 Consistencia  de datos
+              p.p-2 Estandarizan la captura de información (códigos, temperaturas, sellos, entre otros), reduciendo errores y manteniendo registros coherentes.
+        .crd.crd--avatarHorizontal.py-4
+          .row.align-items-center
+            .col-auto.position-relative
+              figure
+                img.img100(src="@/assets/curso/temas/tema_5/img_5.png", alt="Control mecánico" class="img-fluid")
+            .col
+              h5 Fiabilidad de la información
+              p.p-2 Garantizan precisión y confianza al registrar origen, transporte y destino de los productos.
+        .crd.crd--avatarHorizontal.crd--middle.py-4
+          .row.align-items-center
+            .col-auto.position-relative
+              figure
+                img.img100(src="@/assets/curso/temas/tema_5/img_4.png", alt="Control manual" class="img-fluid")
+            .col
+              h5 Reducción de errores y omisiones
+              p.p-2 Proveen instrucciones claras que minimizan fallas humanas en procesos críticos.
+        .crd.crd--avatarHorizontal.py-4
+          .row.align-items-center
+            .col-auto.position-relative
+              figure
+                img.img100(src="@/assets/curso/temas/tema_5/img_5.png", alt="Control biológico" class="img-fluid")
+            .col
+              h5 Facilitación de la capacitación
+              p.p-2 Funcionan como guías de formación estandarizada, acelerando el aprendizaje y cumplimiento de procedimientos.
+        .crd.crd--avatarHorizontal.crd--middle.py-4
+          .row.align-items-center
+            .col-auto.position-relative
+              figure
+                img.img100(src="@/assets/curso/temas/tema_5/img_4.png", alt="Control biocultural" class="img-fluid")
+            .col
+              h5 Base para auditoría y mejora continua
+              p.p-2 Sirven como referencia para auditorías y permiten revisar y optimizar procesos.
+        .crd.crd--avatarHorizontal.crd--last.py-4
+          .row.align-items-center
+            .col-auto.position-relative
+              figure
+                img.img100(src="@/assets/curso/temas/tema_5/img_5.png", alt="Control biológico" class="img-fluid")
+            .col
+              h5 Cumplimiento normativo
+              p.p-2 Aseguran que las operaciones cumplan con regulaciones de trazabilidad mediante documentación y ejecución consistente.
 
     separador
 

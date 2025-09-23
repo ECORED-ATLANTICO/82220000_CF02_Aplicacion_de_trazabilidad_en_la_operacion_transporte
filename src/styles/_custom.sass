@@ -475,3 +475,145 @@ figcaption
 ////.m custom
 .mb-6
   margin-bottom: 5rem !important
+
+//// Tarjetas --------------------------------------
+.img90
+  width: 90px
+.crd
+  &.brd--rad
+    border-radius: 20px
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: $color-sistema-h
+    border-radius: 15px
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: $white
+      .bottomCircle
+        &::before
+          background-color: transparent
+  &.crd--blue
+    background-color: $color-terciario-10
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: transparent
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 25rem
+  min-width: 260px
+  & > *
+    position: relative
+  h5
+    color: $color-sistema-texto
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 3vw
+    width: calc(100% - 4rem)
+    height: 100%
+    background-color: $color-primario-5
+  .col-auto
+    position: relative
+    width: clamp(30px, 8vw, 90px)
+    height: auto
+  .col-auto figure img
+    position: absolute
+    left: 5vw
+    width: 100%
+    max-width: 90px
+    transform: translateY(-50%)
+  @media (max-width: 2560px)
+    &::before
+      right: 2vw
+    .col-auto figure img
+      left: -2rem
+  @media (max-width: 1440px)
+    .col-auto figure img
+      left: -0.3rem
+  @media (max-width: 1024px)
+    padding-right: 3rem
+    &::before
+      right: 3vw
+    .col-auto
+      width: 70px
+    .col-auto figure img
+      left: 0.2rem
+  @media (max-width: 768px)
+    padding-right: 3rem
+    &::before
+      right: 5vw
+    .col-auto figure img
+      left: 0.2rem
+  @media (max-width: 425px)
+    padding-right: 3rem
+    &::before
+      right: 7vw
+    .col-auto figure img
+      left: 0.3rem
+
+.crd--first,.crd--middle
+  &::before
+    background-color: $color-terciario-10 !important
+
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    background-color: $color-primario-5 !important
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -8rem
+  z-index: 1
+  img
+    width: clamp(150px, 39.9vw, 590px)
+    height: auto
+    transform: translateY(35px) translateX(-10px)
+  @media (max-width: 1024px)
+    display: none
+
+.bloque_fondo
+  .bloque-texto-g__img
+    width: 100%
+
+.tabs-a.color-primario .tabs-a__tab:hover, .tabs-a.color-primario .tabs-a__tab:active, .tabs-a.color-primario .tabs-a__tab:focus
+  background-color: $color-terciario-10
+  color: $white
+
+.tabs-a__tab
+  background-color: $color-primario-5
+  color: $color-sistema-texto
+.tabs-a.color-primario .tabs-a__tab__selected
+  background-color: $color-terciario-10
+  color: $white
+.tabs-a.color-primario .tabs-a__tab__selected:before
+  background-color: $color-terciario-10
+.tabs-a__content-item
+  background-color: $color-terciario-10
+  border-radius: 10px
