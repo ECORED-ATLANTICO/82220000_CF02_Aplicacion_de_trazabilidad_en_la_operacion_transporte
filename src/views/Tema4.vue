@@ -24,7 +24,7 @@
       .col-8.col-lg-3.mb-lg-0.mb-3
         img(src="@/assets/curso/temas/tema_4/img_2.png", class="img-fluid")
       .col-12.col-lg-9
-        p.mb-3 Los indicadores clave de rendimiento <em>(Key Performance Indicators o KPIs)</em> son métricas cuantificables utilizadas para evaluar el éxito de una organización, un proyecto o una actividad en particular. En el contexto de la operación de transporte y trazabilidad, un <em>KPI</em> es una medida específica que nos ayuda a determinar si estamos alcanzando nuestros objetivos estratégicos y operativos.
+        p.mb-3 Los indicadores clave de rendimiento (<em>Key Performance Indicators</em> o KPIs) son métricas cuantificables utilizadas para evaluar el éxito de una organización, un proyecto o una actividad en particular. En el contexto de la operación de transporte y trazabilidad, un <em>KPI</em> es una medida específica que nos ayuda a determinar si estamos alcanzando nuestros objetivos estratégicos y operativos.
         .row.justify-content-center.align-items-center
           .col-2.col-lg-1.mb-lg-0.mb-3.d-none.d-lg-block
             img(src="@/assets/curso/temas/tema_4/img_3.svg", class="img-fluid")
@@ -206,10 +206,10 @@
               ul.list-unstyled.mb-0
                 li.d-flex.align-items-start.mb-1.border-bottom.border-dashed.pb-2
                   i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                  span Emisiones de CO₂ por tonelada/km.
+                  span Emisiones de CO₂ por tonelada / km.
                 li.d-flex.align-items-start.mb-1.border-bottom.border-dashed.pb-2
                   i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
-                  span Consumo de combustible por ruta/vehículo.
+                  span Consumo de combustible por ruta / vehículo.
                 li.d-flex.align-items-start.mb-1.border-bottom.border-dashed.pb-2
                   i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FE8849; font-size: 15px; line-height: 1.5;")
                   span Porcentaje de residuos reciclados en almacenamiento y empaque. 

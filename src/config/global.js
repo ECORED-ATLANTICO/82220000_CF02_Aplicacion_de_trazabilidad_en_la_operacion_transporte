@@ -207,16 +207,99 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Cadena de suministro.',
+      referencia:
+        'LASAD Soluciones Integrales. (2022, 1 de marzo). <i>¿Qué es una cadena de suministro?</i> [Video]. YouTube',
+      tipo: 'Sitio Video',
+      link: 'https://www.youtube.com/watch?v=YOqQjF-VHD0',
+    },
+    {
+      tema: 'Criterios de seguridad.',
+      referencia:
+        'Global Security Consultants. (2022, abril 21). <i>5 medidas de seguridad para el transporte de carga</i> [Video].',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ty57u2DbhMw',
+    },
+    {
+      tema: 'Indicadores de gestión de la operación.',
+      referencia:
+        'Patiño-González, M. A., & Agudelo-Rico, H. A. (2018). <i>Medición para cadenas de suministro bajo indicadores claves de desempeño (KPI) y tecnologías de información.</i>',
+      tipo: 'Manual PDF',
+      link:
+        'https://revistas.unilibre.edu.co/index.php/dictamenlibre/article/view/5147/4365',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Auditoría de trazabilidad',
+      significado:
+        'Proceso sistemático de revisión y verificación de la exactitud e integridad de los datos y procesos de trazabilidad dentro del sistema.',
+    },
+    {
+      termino: 'Cobertura de trazabilidad',
+      significado:
+        'Porcentaje de productos, lotes o componentes que están incluidos en el sistema de trazabilidad, respecto al total que debería estarlo.',
+    },
+    {
+      termino: 'Conformidad de datos',
+      significado:
+        'Grado en que los datos registrados en el sistema de trazabilidad cumplen con los estándares predefinidos de formato, contenido y calidad.',
+    },
+    {
+      termino: 'Disponibilidad de datos',
+      significado:
+        'Medida de la accesibilidad y el tiempo de actividad de la información de trazabilidad dentro del sistema.',
+    },
+    {
+      termino: 'Eficiencia operacional',
+      significado:
+        'Medida de desempeño que refleja la capacidad de una operación para cumplir objetivos de forma óptima en tiempo, recursos y costos.',
+    },
+    {
+      termino: 'Exactitud de los datos',
+      significado:
+        'Grado en que los datos de trazabilidad reflejan fielmente la información real sobre el producto, su origen, ruta y destino.',
+    },
+    {
+      termino: 'ERP (<i>Enterprise Resource Planning</i>)',
+      significado:
+        'Sistema integrado de gestión empresarial que puede incluir módulos de transporte, inventario, finanzas y trazabilidad.',
+    },
+    {
+      termino:
+        'Indicador de desempeño / KPI (<i>Key Performance Indicator</i>)',
+      significado:
+        'Métrica cuantificable utilizada para medir el éxito de un proceso, operación o actividad frente a objetivos estratégicos.',
+    },
+    {
+      termino: 'PCC (Punto Crítico de Control)',
+      significado:
+        'Etapa o lugar en la cadena de transporte donde se registra o verifica información clave de trazabilidad.',
+    },
+    {
+      termino: 'POE (Procedimiento Operativo Estandarizado)',
+      significado:
+        'Documento que describe paso a paso cómo ejecutar tareas de manera uniforme para garantizar consistencia, calidad y seguridad en la operación.',
+    },
+    {
+      termino: 'Precisión de la información',
+      significado:
+        'Porcentaje de registros correctos y completos en los sistemas de trazabilidad.',
+    },
+    {
+      termino: '<i>Reporting</i>',
+      significado:
+        'Generación de reportes o informes sobre desempeño, trazabilidad, seguridad y cumplimiento de procedimientos.',
+    },
+    {
+      termino: 'TMS (<i<Transport Management System</i>)',
+      significado:
+        'Sistema de gestión del transporte que permite planificar, ejecutar y monitorear operaciones de transporte.',
+    },
+    {
+      termino: 'WMS (<i>Warehouse Management System</i>)',
+      significado:
+        'Sistema de gestión de almacenes utilizado para registrar, monitorear y controlar inventarios y operaciones de almacenamiento.',
     },
   ],
   referencias: [

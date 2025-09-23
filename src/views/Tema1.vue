@@ -67,36 +67,36 @@
                       figure
                         img(src="@/assets/curso/temas/tema_1/img_10.png", class="img-fluid")
                     .card-content
-                      h5.mb-3 Aprovisionamiento (Sourcing)
+                      h5.mb-3 Aprovisionamiento (<i>Sourcing</i>)
                       p.mb-0 Selección y evaluación de proveedores, gestión de relaciones (SRM) y contratos con cláusulas de trazabilidad. Garantiza el registro del origen de insumos y materias primas.
                   .info-card(data-card="3")
                     .img-circulo 
                       figure
                         img(src="@/assets/curso/temas/tema_1/img_11.png", class="img-fluid")
                     .card-content
-                      h5.mb-3 Fabricación/Producción (Make)
+                      h5.mb-3 Fabricación / Producción (<i>Make</i>)
                       p.mb-0 Control de procesos, inventarios en proceso y calidad. La trazabilidad se fortalece con la asignación de lotes, números de serie y captura de datos en cada etapa.
                   .info-card(data-card="4")
                     .img-circulo 
                       figure
                         img(src="@/assets/curso/temas/tema_1/img_12.png", class="img-fluid")
                     .card-content
-                      h5.mb-3 Distribución y logística (Deliver)
+                      h5.mb-3 Distribución y logística (<i>Deliver</i>)
                       p.mb-0 Gestión de almacenes, transporte, pedidos y logística inversa. Permite trazabilidad hacia adelante y hacia atrás mediante información de envíos, ubicaciones y devoluciones.
                   .info-card(data-card="5")
                     .img-circulo 
                       figure
                         img(src="@/assets/curso/temas/tema_1/img_10.png", class="img-fluid")
                     .card-content
-                      h5.mb-3 Gestión de devoluciones (Return)
+                      h5.mb-3 Gestión de devoluciones (<i>Return</i>)
                       p.mb-0 Procesos de recepción, clasificación y disposición de productos. Cierra el ciclo de vida y facilita el control en retiros del mercado o postventa.
                   .info-card(data-card="6")
                     .img-circulo 
                       figure
                         img(src="@/assets/curso/temas/tema_1/img_11.png", class="img-fluid")
                     .card-content
-                      h5.mb-3 Habilitadores (Enablers)
-                      p.mb-0 Tecnología (ERP, WMS, RFID, Blockchain), talento humano, infraestructura y KPIs. Constituyen la base digital y organizacional para capturar y acceder a la información de trazabilidad.
+                      h5.mb-3 Habilitadores (<i>Enablers</i>)
+                      p.mb-0 Tecnología (ERP, WMS, RFID, <i>Blockchain</i>), talento humano, infraestructura y KPIs. Constituyen la base digital y organizacional para capturar y acceder a la información de trazabilidad.
               .col-12.col-lg-12.col-xl-10.mb-5
                 figure
                   label.punto-info(for="infografia-punto-1" style="top: 50%; left: 10%;")

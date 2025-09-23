@@ -102,7 +102,7 @@
                 .col-12.mb-3
                   .tarjeta--1
                 .tarjeta--slider__title.mb-3.text-center.fw-bold Seguridad física
-                .tarjeta--slider__content.text-center Protege activos y personal mediante controles de acceso biométricos/RFID, sistemas de videovigilancia con analítica de video y refuerzo perimetral de instalaciones.
+                .tarjeta--slider__content.text-center Protege activos y personal mediante controles de acceso biométricos / RFID, sistemas de videovigilancia con analítica de video y refuerzo perimetral de instalaciones.
             .tarjeta--color-fondo-1.h-95
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.mb-3

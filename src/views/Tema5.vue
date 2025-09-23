@@ -160,7 +160,7 @@
           tr.bg-table-01
             td.text-start.fw-bold Métodos de captura de datos
             td.text-start Define cómo se registran los datos de forma precisa y confiable, combinando tecnología y procedimientos.
-            td.text-start Escaneo de códigos de barras/RFID, entrada manual con doble verificación, sensores de temperatura y humedad.
+            td.text-start Escaneo de códigos de barras / RFID, entrada manual con doble verificación, sensores de temperatura y humedad.
           tr
             td.text-start.fw-bold Formatos y estándares de datos
             td.text-start Estandariza la información registrada para facilitar su interpretación, control y análisis.
@@ -172,7 +172,7 @@
           tr
             td.text-start.fw-bold Almacenamiento y seguridad
             td.text-start Protege la información registrada y asegura disponibilidad, confidencialidad e integridad de los datos.
-            td.text-start Uso de WMS/TMS/ERP, copias de seguridad, control de accesos, permisos de usuario y protección contra manipulación.
+            td.text-start Uso de WMS / TMS / ERP, copias de seguridad, control de accesos, permisos de usuario y protección contra manipulación.
           tr.bg-table-01
             td.text-start.fw-bold Reporting y análisis
             td.text-start Permite evaluar el desempeño del sistema de trazabilidad y tomar decisiones basadas en datos.

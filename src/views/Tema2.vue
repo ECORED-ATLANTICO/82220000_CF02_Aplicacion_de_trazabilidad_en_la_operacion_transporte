@@ -9,7 +9,7 @@
 
     .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
       .bloque-texto-t__img.mb-0
-        img(src='@/assets/curso/temas/tema_1/img_4.png')
+        img(src='@/assets/curso/temas/tema_2/img_1.png')
       .bloque-texto-t__texto.col-10.mb-0.p-4
         p.mb-0 Los parámetros de control permiten garantizar que cada proceso dentro de la cadena de suministro se ejecute bajo condiciones estandarizadas, medibles y verificables. Estos parámetros son esenciales para mantener la coherencia entre lo planificado y lo ejecutado, facilitando la trazabilidad de la información y la toma de decisiones oportunas frente a desviaciones o riesgos.
 
@@ -118,7 +118,7 @@
               img(src='@/assets/curso/temas/tema_2/img_14.png', class="img-fluid")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            h5 Reducción de mermas/devoluciones
+            h5 Reducción de mermas / devoluciones
             p.mb-0 Medición de disminución de pérdidas o devoluciones gracias a la trazabilidad y la identificación de problemas de calidad.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
