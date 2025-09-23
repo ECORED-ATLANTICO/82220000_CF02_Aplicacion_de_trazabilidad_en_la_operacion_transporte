@@ -292,7 +292,7 @@ export default {
         'Generación de reportes o informes sobre desempeño, trazabilidad, seguridad y cumplimiento de procedimientos.',
     },
     {
-      termino: 'TMS (<i<Transport Management System</i>)',
+      termino: 'TMS (<i>Transport Management System</i>)',
       significado:
         'Sistema de gestión del transporte que permite planificar, ejecutar y monitorear operaciones de transporte.',
     },
