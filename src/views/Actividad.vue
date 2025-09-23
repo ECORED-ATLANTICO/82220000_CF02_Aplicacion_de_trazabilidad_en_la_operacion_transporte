@@ -22,7 +22,7 @@ export default {
       introduccion:
         '<b> Objetivo:</b> aplicar métricas del sistema de trazabilidad para evaluar y optimizar la gestión de la cadena de suministro, garantizando calidad, seguridad y sostenibilidad en los procesos logísticos.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
