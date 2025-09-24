@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/82220000_CF02_Trazabilidad_en_la_operacion_del_transporte/](https://ecored-atlantico.github.io/82220000_CF02_Trazabilidad_en_la_operacion_del_transporte/)
+[https://ecored-atlantico.github.io/82220000_CF2_TRAZABILIDAD_EN_LA_OPERACION_DEL_TRANSPORTE/](https://ecored-atlantico.github.io/82220000_CF2_TRAZABILIDAD_EN_LA_OPERACION_DEL_TRANSPORTE/)
 
 #
 
