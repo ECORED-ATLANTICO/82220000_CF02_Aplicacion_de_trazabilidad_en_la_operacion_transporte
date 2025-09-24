@@ -304,7 +304,82 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'AENOR. (n.d.). <i>Certificación ISO 22005 Trazabilidad Cadena de Alimentos</i>. Recuperado de',
+      link: 'https://www.aenor.com/certificacion/alimentacion/trazabilidad',
+    },
+    {
+      referencia:
+        'Calatayud, A., & Katz, R. (2019). <i>Cadena de suministro 4.0: Mejores prácticas internacionales y hoja de ruta para América Latina.</i> Banco Interamericano de Desarrollo.',
+      link:
+        'https://publications.iadb.org/publications/spanish/document/Cadena_de_suministro_4.0_Mejores_pr%C3%A1cticas_internacionales_y_hoja_de_ruta_para_Am%C3%A9rica_Latina_es.pdf',
+    },
+    {
+      referencia:
+        'Congreso de Colombia. (2004). <i>Ley 914 de 2004: Por la cual se crea el Sistema Nacional de Identificación e Información de Ganado Bovino.</i> Diario Oficial No. 45.759.',
+      link: '',
+    },
+    {
+      referencia:
+        'Congreso de Colombia. (2013). <i>Ley 1659 de 2013: Por la cual se crea el sistema nacional de identificación, información y trazabilidad animal.</i> Diario Oficial No. 48.850.',
+      link: '',
+    },
+    {
+      referencia:
+        'GS1. (s.f.). <i>Implementación de trazabilidad EAN.UCC.</i> GS1 Argentina.',
+      link: 'https://www.gs1.org.ar/documentos/trazabilidad.pdf',
+    },
+    {
+      referencia:
+        'ICONTEC. (2015). <i>NTC-ISO 9001: Sistemas de gestión de la calidad - Requisitos (Cuarta actualización).</i> Instituto Colombiano de Normas Técnicas y Certificación.',
+      link: '',
+    },
+    {
+      referencia:
+        'ISO. (2007). <i>ISO 22005:2007 - Trazabilidad en la cadena alimentaria — Principios generales y requisitos básicos para el diseño y la implementación del sistema.</i> Organización Internacional de Normalización.',
+      link: '',
+    },
+    {
+      referencia:
+        'Lazos-Martínez, R. J. (n.d.). <i>ISO 9001:2000, Trazabilidad e Incertidumbre. Centro Nacional de Metrología.</i> Recuperado de',
+      link:
+        'https://www.cenam.mx/memorias/descarga/Memorias%20Simposio/documentos/ta-or079.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Agricultura y Desarrollo Rural (MADR). (2018). <i>Decreto 931 de 2018: Por el cual se crea el Sistema de Trazabilidad Vegetal.</i> Diario Oficial No. 50.591.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social (MSPS). (2013). <i>Resolución 2674 de 2013: Por la cual se reglamenta el artículo 126 del Decreto-ley 019 de 2012 y se dictan otras disposiciones.</i> Diario Oficial No. 48.868.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) & Organización Mundial de la Salud (OMS). (s.f.). <i>Codex alimentarius.</i> FAO.',
+      link: '. https://www.fao.org/fao-who-codexalimentarius/es/',
+    },
+    {
+      referencia:
+        'Prochile. (n.d.). <i>Guía para la aplicación del sistema de trazabilidad en la empresa agroalimentaria.</i> Recuperado de',
+      link:
+        'https://www.aragon.es/documents/20127/674325/Guia_Trazabilidad1.pdf/60989746-00a4-7d6a-56a8-301092cf2401',
+    },
+    {
+      referencia:
+        'Rivoir, A. L., & Morales, M. J. (Coords.). (2019). <i>Tecnologías digitales: Miradas críticas de la apropiación en América Latina.</i> CLACSO; RIAT.',
+      link:
+        'https://biblioteca.clacso.edu.ar/clacso/se/20191128031455/Tecnologias-digitales.pdf',
+    },
+    {
+      referencia:
+        'Unión Europea. (2002). <i>Reglamento (CE) nº 178/2002 del Parlamento Europeo y del Consejo, de 28 de enero de 2002, por el que se establecen los principios y los requisitos generales de la legislación alimentaria, se crea la Autoridad Europea de Seguridad Alimentaria y se fijan procedimientos relativos a la seguridad alimentaria.</i> Diario Oficial de las Comunidades Europeas, L 31, 1-24.',
+      link: '',
+    },
+    {
+      referencia:
+        'Villafuerte, D., & Ruiz, I. (2018). <i>Sistemas de trazabilidad en la cadena de suministro agroalimentaria: Un enfoque para Latinoamérica.</i> Editorial Académica Española.',
       link: '',
     },
   ],
