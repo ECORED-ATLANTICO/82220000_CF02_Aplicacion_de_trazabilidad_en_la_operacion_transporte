@@ -36,26 +36,23 @@
       top: 20%
       right: 3%
       width: 140px
+
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-    
-.banner-principal .tarjeta
-  
+
 @media (min-width: 426px)
   .banner-principal .tarjeta
    
 @media (min-width: 769px)
   .banner-principal .tarjeta
     padding-right: 0
-    overflow: hidden
-    
-.banner-principal__row .banner-principal__img
-  width: 500px !important
-  @media screen and (max-width: $bp-max-xl)
-    width: 400px !important
+    overflow: hidden  
+
+.banner-principal .tarjeta
+  background-position: left 50% !important
 
 .titulo-principal__numero
   min-width: 45px
@@ -67,21 +64,36 @@
 .banner-interno__fondo 
   background-image: url('../assets/curso/portada/banner_interno.png') !important
 
-  .banner-principal .tarjeta
-  background-position: left 50% !important 
+.banner-principal .tarjeta
+  background-position: left 50% !important
+  @media screen and (max-width: $bp-max-md)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-sm.png) !important
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-xs.png) !important
+
+.banner-principal_row .banner-principal_img
+  width: 500px !important
+  @media screen and (max-width: $bp-max-sm)
+    width: 400px !important
 
 .titulo-principal.color-acento-contenido
   color: $color-sistema-texto !important
 
 .titulo-principal__numero span
   color: $color-sistema-texto !important
+  
 .banner-interno__titulo__icono i
+  color: $color-primario
+
+.banner-interno_titulo_icono i
   color: $color-primario
 
 .boton *, .boton--sm *
   color: $white
+
 .boton:active *, .boton--sm:active *, .boton:focus *, .boton--sm:focus *, .boton:hover *, .boton--sm:hover *
   color: $white
+
 .barra-avance__boton--regresar span
   color: $white !important
 
